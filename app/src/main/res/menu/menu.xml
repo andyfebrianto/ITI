@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item
+            android:id="@+id/dti"
+            android:title="Data Tempat Ibadah"
+            android:icon="@drawable/ic_person"
+            app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ti"
+        android:title="Input Data Tempat Ibadah"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"/>
+</menu>
