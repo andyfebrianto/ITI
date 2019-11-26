@@ -82,14 +82,14 @@ public class MainRead extends AppCompatActivity implements AdapterView.OnItemCli
         String Stlpn = obj_itemDetails.get_tlpn();
         String Sagama = obj_itemDetails.get_agama();
         String Sjenis = obj_itemDetails.get_jenis();
-//        Intent goUpdel = new Intent(MainRead.this, MainUpdel.class);
-//        goUpdel.putExtra("Iid", Sid);
-//        goUpdel.putExtra("Inama", Snama);
-//        goUpdel.putExtra("Ialamat", Salamat);
-//        goUpdel.putExtra("Itlpn", Stlpn);
-//        goUpdel.putExtra("Iagama", Sagama);
-//        goUpdel.putExtra("Ijenis", Sjenis);
-//        startActivity(goUpdel);
+        Intent goUpdel = new Intent(MainRead.this, MainUpdel.class);
+        goUpdel.putExtra("Iid", Sid);
+        goUpdel.putExtra("Inama", Snama);
+        goUpdel.putExtra("Ialamat", Salamat);
+        goUpdel.putExtra("Itlpn", Stlpn);
+        goUpdel.putExtra("Iagama", Sagama);
+        goUpdel.putExtra("Ijenis", Sjenis);
+        startActivity(goUpdel);
     }
 
     @Override
