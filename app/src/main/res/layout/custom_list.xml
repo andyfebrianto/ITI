@@ -22,15 +22,24 @@
         android:layout_weight="5"
         android:layout_width="0dp"
         android:layout_height="wrap_content">
+<!--        <TextView-->
+<!--            android:textColor="@color/colorPrimary"-->
+<!--            android:text="NAMA"-->
+<!--            android:id="@+id/text_nama"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_alignLeft="@+id/rating"-->
+<!--            android:layout_alignStart="@+id/rating" />-->
         <TextView
             android:textColor="@color/colorPrimary"
-            android:text="NAMA"
+            android:text="nama"
             android:id="@+id/text_nama"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_alignLeft="@+id/rating"
-            android:layout_alignStart="@+id/rating" />
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/thumbnail_offline"
+            android:layout_toEndOf="@+id/thumbnail_offline" />
         <TextView
             android:textColor="@color/colorPrimary"
             android:text="Alamat"

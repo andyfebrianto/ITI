@@ -41,15 +41,29 @@
         android:hint="Jenis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btn_up"
-        android:layout_marginTop="20dp"
-        android:text="UPDATE"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btn_del"
-        android:text="DELETE"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="196dp"
+            android:background="@drawable/btn_e" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="142dp"
+            android:background="@drawable/btn_d" />
+    </RelativeLayout>
+
 </LinearLayout>
