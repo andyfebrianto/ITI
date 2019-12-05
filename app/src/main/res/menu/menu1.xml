@@ -8,7 +8,17 @@
          app:showAsAction="never"/>
     <item
         android:id="@+id/ti"
-        android:title="Input Tempat Ibadah"
+        android:title="Input TI"
+        android:icon="@drawable/ic_note"
+        app:showAsAction="never" />
+    <item
+         android:id="@+id/dkg"
+         android:title="Kegiatan"
+         android:icon="@drawable/ic_view"
+         app:showAsAction="never"/>
+    <item
+        android:id="@+id/kg"
+        android:title="Input KG"
         android:icon="@drawable/ic_note"
         app:showAsAction="never" />
 

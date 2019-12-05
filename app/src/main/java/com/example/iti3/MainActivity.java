@@ -10,18 +10,20 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
 
+public class MainActivity extends AppCompatActivity {
     Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,11 +61,20 @@ public class MainActivity extends AppCompatActivity {
                             Intent ti = new Intent(MainActivity.this, MainCreate.class);
                             startActivity(ti);
                             break;
+                            case R.id.dkg:
+                            Intent dkg = new Intent(MainActivity.this, MainReadKegiatan.class);
+                            startActivity(dkg);
+                            break;
+                        case R.id.kg:
+                            Intent kg = new Intent(MainActivity.this, MainCreateKegiatan.class);
+                            startActivity(kg);
+                            break;
                     }
 
                     return true;
                 }
             };
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

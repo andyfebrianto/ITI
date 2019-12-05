@@ -11,14 +11,18 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="43dp"
-        android:id="@+id/button"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/btn_in"/>
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginRight="185dp"
+        android:background="@drawable/btn_in" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,9 +40,7 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_alignParentBottom="true"
-
         android:background="?android:attr/windowBackground"
         app:menu="@menu/menu1" />
 </RelativeLayout>
