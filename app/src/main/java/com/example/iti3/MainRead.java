@@ -21,27 +21,7 @@ public class MainRead extends AppCompatActivity implements AdapterView.OnItemCli
     private MyDatabase db;
     private List<ITI> ListMahasiswa = new ArrayList<ITI>();
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
-        //getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
 
-    }
-
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId()==R.id.about){
-            startActivity(new Intent(this, vabout.class));
-        } else if (item.getItemId() == R.id.dti) {
-            startActivity(new Intent(this, MainRead.class));
-        } else if (item.getItemId() == R.id.ti) {
-            startActivity(new Intent(this, MainCreate.class));
-        }
-
-        return true;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

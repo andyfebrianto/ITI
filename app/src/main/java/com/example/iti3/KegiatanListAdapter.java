@@ -43,7 +43,6 @@ public class KegiatanListAdapter extends BaseAdapter {
         TextView tgl = (TextView) convertView.findViewById(R.id.text_tgl);
         TextView agama = (TextView) convertView.findViewById(R.id.text_agama);
         TextView kegiatan = (TextView) convertView.findViewById(R.id.text_kegiatan);
-        ImageView imageView = (ImageView) convertView.findViewById(R.id.iconid);
         KegiatanITI m = movieItems.get(position);
         nama.setText("Nama Tempat Ibadah : "+ m.get_nama());
         alamat.setText("Alamat : "+ m.get_alamat());

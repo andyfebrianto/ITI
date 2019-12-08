@@ -8,13 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainCreateKegiatan">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Input Data Tempat Ibadah" />
 
     <EditText
         android:id="@+id/create_nama"
@@ -42,10 +37,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Kegiatan" />
-    <Button
-        android:id="@+id/create_btn"
-        android:layout_marginTop="20dp"
-        android:text="CREATE"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/create_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="167dp"
+            android:background="@drawable/ic_add_data" />
+    </RelativeLayout>
+
 </LinearLayout>

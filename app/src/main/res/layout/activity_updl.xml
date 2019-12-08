@@ -8,13 +8,9 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainUpdel">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello welcome to Update and Delete" />
+
     <EditText
         android:id="@+id/updel_nama"
         android:layout_marginTop="20dp"

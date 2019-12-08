@@ -10,12 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".vabout" />
+        <activity android:name=".vabout"
+            android:label="Nama Anggota"/>
         <activity android:name=".vti" />
         <activity android:name=".vdti" />
         <activity
             android:name=".MainUpdel"
-            android:label="Update dan Delete" />
+            android:label="Update dan Delete Tempat Ibadah" />
         <activity
             android:name=".MainRead"
             android:label="Data Tempat Ibadah" />
@@ -24,10 +25,10 @@
             android:label="Tambah Data Tempat Ibadah" />
         <activity
             android:name=".MainUpdelKegiatan"
-            android:label="Update dan Delete" />
+            android:label="Update dan Delete Kegiatan" />
         <activity
             android:name=".MainReadKegiatan"
-            android:label="Kegiatan" />
+            android:label="Data Kegiatan" />
         <activity
             android:name=".MainCreateKegiatan"
             android:label="Tambah Data Kegiatan" />

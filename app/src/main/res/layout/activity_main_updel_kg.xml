@@ -8,13 +8,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainUpdelKegiatan">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello welcome to Update and Delete" />
+
     <EditText
         android:id="@+id/updel_nama"
         android:layout_marginTop="20dp"
@@ -41,15 +37,28 @@
         android:hint="Kegiatan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btn_up"
-        android:layout_marginTop="20dp"
-        android:text="UPDATE"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btn_del"
-        android:text="DELETE"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="196dp"
+            android:background="@drawable/btn_e" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="142dp"
+            android:background="@drawable/btn_d" />
+    </RelativeLayout>
 </LinearLayout>

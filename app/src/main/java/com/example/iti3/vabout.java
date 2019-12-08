@@ -28,10 +28,10 @@ public class vabout extends AppCompatActivity {
     }
     private void addData() {
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa("ANDY FEBRIANTO", "1718014", "TEKNIK INFORMATIKA",R.drawable.ic_person));
-        mahasiswaArrayList.add(new Mahasiswa("STEVANIA HILDEGARDIS BERE", "1718017", "TEKNIK INFORMATIKA", R.drawable.ic_person));
-        mahasiswaArrayList.add(new Mahasiswa("OFHY DINI SUSANTI", "1718018", "TEKNIK INFORMATIKA", R.drawable.ic_person));
-        mahasiswaArrayList.add(new Mahasiswa("PRATEDYO SEPTIARDO", "1718028", "TEKNIK INFORMATIKA", R.drawable.ic_person));
+        mahasiswaArrayList.add(new Mahasiswa("ANDY FEBRIANTO", "1718014", "TEKNIK INFORMATIKA",R.drawable.andy));
+        mahasiswaArrayList.add(new Mahasiswa("STEVANIA HILDEGARDIS BERE", "1718017", "TEKNIK INFORMATIKA", R.drawable.vany));
+        mahasiswaArrayList.add(new Mahasiswa("OFHY DINI SUSANTI", "1718018", "TEKNIK INFORMATIKA", R.drawable.ofy));
+        mahasiswaArrayList.add(new Mahasiswa("PRATEDYO SEPTIARDO", "1718028", "TEKNIK INFORMATIKA", R.drawable.dyo));
     }
 
 }
